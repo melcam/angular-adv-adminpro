@@ -11,9 +11,9 @@ export class DonaComponent {
   @Input() title: string = 'Sin titulo';
 
   @Input('labels') doughnutChartLabels: Label[] = [
-    'Download Sales',
-    'In-Store Sales',
-    'Mail-Order Sales',
+    'Nuevo',
+    'Acumulado',
+    'Oferta',
   ];
   @Input('data') doughnutChartData: MultiDataSet = [[350, 450, 100]];
 

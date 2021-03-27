@@ -8,15 +8,16 @@ import { Component } from '@angular/core';
 export class Grafica1Component {
   public title1: string = 'No title';
   public labels1: string[] = [
-    'Download Sales',
-    'In-Store Sales',
-    'Delivery Sales',
+    'Ingreso',
+    'Tienda',
+    'Ventas',
   ];
   public labels2: string[] = [
-    'Download Sales',
-    'In-Store Sales',
-    'Mail-Order Sales',
+    'Pedido',
+    'Pagado',
+    'Recibido',
   ];
   public data1 = [[50, 65, 10]];
   public data2 = [[300, 300, 300]];
+  public data3 = [[250, 50, 200]];
 }
